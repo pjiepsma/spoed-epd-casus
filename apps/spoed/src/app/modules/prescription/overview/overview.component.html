@@ -1,0 +1,36 @@
+<div class="example-flex-container">
+  <button data-test="add-prescription" class="custom" (click)="openDialog()" mat-stroked-button>Toevoegen</button>
+  <mat-form-field>
+    <input matInput placeholder="Zoeken">
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+  <button (click)="fetchDescriptions()" mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+    <mat-icon>refresh</mat-icon>
+  </button>
+</div>
+<table data-test="prescription-table" *ngIf="prescriptions" mat-table [dataSource]="prescriptions" [trackBy]="indexTrackByFn" class="table mat-elevation-z0">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> No. </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef> Omschrijving </th>
+      <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+    </ng-container>
+    <ng-container matColumnDef="quantity">
+      <th mat-header-cell *matHeaderCellDef> Hoeveelheid </th>
+      <td mat-cell *matCellDef="let element"> {{element.quantity}} </td>
+    </ng-container>
+    <ng-container matColumnDef="unit">
+      <th mat-header-cell *matHeaderCellDef> Hoeveelheid </th>
+      <td mat-cell *matCellDef="let element"> {{element.unit}} </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr data-test="table-row" mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons aria-label="Select page of periodic elements">
+</mat-paginator>

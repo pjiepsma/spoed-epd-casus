@@ -62,7 +62,8 @@
           "browserTarget": "spoed:build:production"
         },
         "development": {
-          "browserTarget": "spoed:build:development"
+          "browserTarget": "spoed:build:development",
+          "proxyConfig": "proxy.conf.json"
         }
       },
       "defaultConfiguration": "development"

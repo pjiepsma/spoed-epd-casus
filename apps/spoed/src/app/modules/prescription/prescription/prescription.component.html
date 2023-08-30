@@ -1,0 +1,30 @@
+<h2 data-test="dialog-title" mat-dialog-title>Recept toevoegen</h2>
+<mat-dialog-content class="mat-typography">
+  <form   #ngForm="ngForm" [formGroup]="form" class="form">
+    <mat-form-field class="form-input">
+      <mat-label>Naam: </mat-label>
+      <input data-test="input-name" [formControlName]="'name'" matInput placeholder="paracetamol">
+    </mat-form-field>
+    <mat-form-field class="form-input">
+      <mat-label>Omschijving</mat-label>
+      <textarea  data-test="input-description" [formControlName]="'description'" matInput></textarea>
+    </mat-form-field>
+    <mat-form-field class="form-input">
+      <mat-label>Hoeveelheid</mat-label>
+      <input  data-test="input-quantity"  type="number" [formControlName]="'quantity'" matInput>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Eenheid</mat-label>
+      <mat-select  data-test="select-unit" [formControlName]="'unit'">
+        <mat-option data-test="select-option"  *ngFor="let type of prescriptionUnit | keyvalue" [value]="type.value">
+          {{type.value}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-error data-test="form-error" *ngIf="ngForm.submitted && ngForm.invalid">Vul de verplichte velden in.</mat-error>
+    <div mat-dialog-actions>
+      <button data-test="submit" (click)="submitDialog()" type="submit" mat-raised-button color="primary">Toevoegen</button>
+      <button mat-button mat-dialog-close>Annuleren</button>
+    </div>
+  </form>
+</mat-dialog-content>

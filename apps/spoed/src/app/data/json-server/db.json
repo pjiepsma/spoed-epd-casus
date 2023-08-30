@@ -1,0 +1,214 @@
+{
+  "prescriptions": [
+    {
+      "id": 1,
+      "name": "paracetemol",
+      "description": "4 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api"
+    },
+    {
+      "id": 2,
+      "name": "aspirine",
+      "description": "2 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api"
+    },
+    {
+      "id": 3,
+      "name": "ibuprofen",
+      "description": "1 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api"
+    },
+    {
+      "id": 4,
+      "name": "hoestdrank",
+      "description": "100 mililiter per dag",
+      "date": "10-10-2023",
+      "quantity": 500,
+      "unit": "mililiter",
+      "spoed-epdId": "api"
+    },
+    {
+      "name": "paracetemol",
+      "description": "4 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 5
+    },
+    {
+      "name": "paracetemol",
+      "description": "4 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 6
+    },
+    {
+      "name": "paracetemol",
+      "description": "4 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 7
+    },
+    {
+      "name": "paracetemol",
+      "description": "4 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 8
+    },
+    {
+      "name": "paracetemol",
+      "description": "4 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 9
+    },
+    {
+      "name": "paracetemol",
+      "description": "4 per dag",
+      "date": "10-10-2023",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 10
+    },
+    {
+      "name": "paracetemol",
+      "description": "4 per dag",
+      "quantity": 20,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 11
+    },
+    {
+      "name": "pil",
+      "description": "2x per dag",
+      "quantity": 5,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 12
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 13
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 14
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 15
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 16
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 17
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 18
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 19
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 20
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 21
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 22
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 23
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 24
+    },
+    {
+      "name": "Lisinopril",
+      "description": "1 pil per week voor 4 weken",
+      "quantity": 28,
+      "unit": "stuks",
+      "spoed-epdId": "api",
+      "id": 25
+    }
+  ]
+}

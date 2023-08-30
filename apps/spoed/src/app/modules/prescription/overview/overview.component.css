@@ -1,0 +1,21 @@
+.table {
+  border: 1px solid lightgray;
+}
+
+.custom {
+  height: 55px;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mat-row:nth-child(even){
+  background-color: red;
+}
+
+.mat-row:nth-child(odd){
+  background-color: black;
+}

@@ -7,22 +7,26 @@
     "e2e": {
       "executor": "@nx/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/spoed-e2e/cypress.json",
-        "tsConfig": "apps/spoed-e2e/tsconfig.e2e.json",
-        "devServerTarget": "spoed:serve:development"
+        "cypressConfig": "apps/spoed-e2e/cypress.config.ts",
+        "devServerTarget": "spoed:serve",
+        "testingType": "e2e"
       },
       "configurations": {
-        "production": {
-          "devServerTarget": "spoed:serve:production"
+        "development": {
+          "devServerTarget": "spoed:serve:development",
+          "watch": true
+        },
+        "ci": {
+          "devServerTarget": "spoed:serve-static"
         }
       }
     },
     "lint": {
       "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": ["apps/spoed-e2e/**/*.{js,ts}"]
-      },
-      "outputs": ["{options.outputFile}"]
+      }
     }
   },
   "tags": [],
